@@ -31,7 +31,7 @@ pip install -e .
 ## Usage
 
 ```bash
-python3 diff.py <proxy_file> <instr_raw_file> <ir_file>
+bb-count-diff <proxy_file> <instr_raw_file> <ir_file>
 ```
 
 Replace `<proxy_file>`, `<instr_raw_file>`, and `<ir_file>` with the appropriate file paths.
@@ -39,7 +39,7 @@ Replace `<proxy_file>`, `<instr_raw_file>`, and `<ir_file>` with the appropriate
 ## Example
 
 ```bash
-python3 diff.py proxy.txt default.profraw ir.ll
+bb-count-diff proxy.txt default.profraw ir.ll
 ```
 
 ### Proxy File Example
