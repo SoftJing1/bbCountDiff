@@ -1,0 +1,11 @@
+[project]
+name = "bb-count-diff"
+version = "0.1.0"
+description = "a tool to compare bb counts collected by symbolic profiling proxy and by LLVM PGO instrumentation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Jingyu Qiu", email = "jqiu9@ur.rochester.edu"},]
+
+[project.scripts]
+"bb-count-diff" = "bbCountDiff.diff:cli"
